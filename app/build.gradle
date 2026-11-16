@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.ekbatan.hse'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.ekbatan.hse'
+        minSdk 26
+        targetSdk 35
+        versionCode 44
+        versionName '4.4.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.tom-roush:pdfbox-android:2.0.27.0'
+}

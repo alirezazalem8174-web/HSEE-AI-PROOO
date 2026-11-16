@@ -1,0 +1,15 @@
+# QA Checklist v3.2
+- [x] no INTERNET permission
+- [x] no cloud/API dependency in Gradle/source
+- [x] Persian RTL base
+- [x] local notes table
+- [x] local reminders table
+- [x] local 5x5 risk table
+- [x] local incident table
+- [x] PDF SHA-256 duplicate prevention
+- [x] ZIP path traversal checks
+- [x] backup/restore database + library
+- [ ] Android Gradle build in this environment
+- [ ] real-device notification test
+- [ ] real-device PDF import test
+- [ ] scanned-PDF offline OCR
